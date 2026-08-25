@@ -216,7 +216,7 @@ jobs:
           # low_carb_limit \
           # high_carb_limit \
           # override_sens \
-          now_line \
+          # now_line \
           # lnl_icon \
           # watch_title \
           2hlollipop \
