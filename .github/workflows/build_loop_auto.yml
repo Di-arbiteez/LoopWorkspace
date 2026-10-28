@@ -228,6 +228,9 @@ jobs:
           # Copy url from a GitHub commit or pull request and insert below, and remove the "#" sign from the beginning of the line to activate:
           #curl url_to_github_commit.patch | git apply --directory=LoopKit -v --whitespace=fix
 
+          # LoopKit: Guardrail+Settings.swift: custom recommended glucose bounds
+          curl https://github.com/Di-arbiteez/LoopKit/commit/e9676f58ec992c61ebfc912b9cfc5b6be40f686d.patch | git apply --directory=LoopKit -v --whitespace=fix
+
           # Submodule xxxxx patches:
 
           # Add patches for customization of additional submodules by following the templates above, 
